@@ -68,7 +68,7 @@ public class Server {
       
       //반복하지않아도 되는구간(피피티 그림 이해 1번동그라미)
       ServerSocket serverSocket = new ServerSocket();
-      serverSocket.bind(new InetSocketAddress("192.168.0.133",10001));  //IP 포트번호
+      serverSocket.bind(new InetSocketAddress("192.168.0.67",10001));  //IP 포트번호
       
       System.out.println("<서버시작>");
       System.out.println("================================");
